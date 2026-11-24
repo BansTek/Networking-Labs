@@ -1,4 +1,4 @@
-# Networking Labs Portfolio
+# Networking Labs - VLAN CONFIGURATION
 
 ## About This Repository
 
