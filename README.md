@@ -78,9 +78,5 @@ BS Information Technology Student
 
 University of Cebu – Main Campus
 
-- TOPCIT Level 3
-- RIVAN IT Cebu CCNA Bootcamp Graduate
-- Currently preparing for CCNA certification
-
 This repository will be continuously updated as I
 progress through my networking studies.
