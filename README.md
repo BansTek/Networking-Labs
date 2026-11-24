@@ -63,6 +63,42 @@ requirements.
 [View Full Lab Documentation](./01-VLAN-Configuration/)
 
 ---
+# Lab 02 - EtherChannel Configuration
+
+## Overview
+
+This lab is a continuation of the previous VLAN
+configuration lab. The main purpose is to improve
+the connection between the two switches by combining
+multiple physical links into a single logical link
+using EtherChannel.
+
+LACP is used to provide additional bandwidth and
+link redundancy between the two offices.
+
+## Network Topology
+
+![Network Topology](Topology.png)
+
+## Business Requirements
+
+- Increase the available bandwidth between switches.
+- Provide redundancy in case one physical link fails.
+- Combine two physical links into one logical link.
+- Maintain trunk connectivity between the switches.
+- Maintain the existing VLAN segmentation.
+
+## VLAN Assignment
+
+| VLAN ID | Department | Network |
+|---------|------------|---------|
+| 10 | Sales | 192.168.10.0/24 |
+| 20 | IT | 192.168.20.0/24 |
+| 30 | HR | 192.168.30.0/24 |
+
+## Previous Lab
+
+[View Full Lab Documentation](./02-EtherChannel/)
 
 ## Learning Resources
 
