@@ -1,0 +1,10 @@
+OFFICE_A_SW(config)#interface range g0/1-2
+OFFICE_A_SW(config-if-range)#switchport mode trunk
+OFFICE_A_SW(config-if-range)#switchport trunk allowed vlan 10,20,30
+OFFICE_A_SW(config-if-range)#channel-group 1 mode active
+OFFICE_A_SW(config-if-range)#
+OFFICE_A_SW(config)#interface port-channel 1
+OFFICE_A_SW(config-if)#switchport mode trunk
+OFFICE_A_SW(config-if)#switchport trunk allowed vlan 10,20,30
+OFFICE_A_SW(config-if)#exit
+OFFICE_A_SW(config)#
