@@ -39,7 +39,7 @@ to communicate across two switches.
 ## Lab Documentation
 
 - [Switch Configurations](./Configurations/)
-- [Network Verification](./Verification/)
+- [Network Verification](./Verifications/)
 - [Packet Tracer File](./VLAN-Configuration.pkt)
 
 ## Scope and Limitations
