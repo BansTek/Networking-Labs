@@ -17,19 +17,17 @@ access ports, and trunk links are configured correctly.
 
 ## VLAN Verification
 
-OFFICE A Switch
 ![VLAN Verification](VLAN_OFFICE_A_brief.png)
 
-OFFICE B Switch
 ![VLAN Verification](VLAN_OFFICE_B_brief.png)
 
 ## Trunk Verification
 
 OFFICE A Switch
-![Trunk Verification](TRUNK_OFFICE_A_STATUS.png)
+![Trunk Verification](TRUNK_OFFICE_A_status.png)
 
 OFFICE B Switch
-![Trunk Verification](TRUNK_OFFICE_A_STATUS.png)
+![Trunk Verification](TRUNK_OFFICE_A_status.png)
 
 ## Connectivity Testing
 
