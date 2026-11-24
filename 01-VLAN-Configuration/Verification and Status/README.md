@@ -23,10 +23,8 @@ access ports, and trunk links are configured correctly.
 
 ## Trunk Verification
 
-OFFICE A Switch
 ![Trunk Verification](TRUNK_OFFICE_A_status.png)
 
-OFFICE B Switch
 ![Trunk Verification](TRUNK_OFFICE_A_status.png)
 
 ## Connectivity Testing
@@ -41,7 +39,7 @@ OFFICE B Switch
 
 ## Same-VLAN Connectivity
 
-![Successful Ping](PC1_PC4_ping.png)
+![Successful Ping](PC_1_PC_4_ping.png)
 
 ## Inter-VLAN Isolation
 
