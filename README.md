@@ -78,7 +78,7 @@ link redundancy between the two offices.
 
 ## Network Topology
 
-![Network Topology](Topology.png)
+![Network Topology](./02-EtherChannel/Topology.png)
 
 ## Business Requirements
 
