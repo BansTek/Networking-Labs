@@ -11,8 +11,8 @@ Port-Channel 1 as a trunk to carry VLAN traffic.
 
 | Device | LACP Mode | Configuration |
 |---|---|---|
-| SW1 | Active | [SW1.txt](OFFICE_A_SW.txt) |
-| SW2 | Passive | [SW2.txt](OFFICE_B_SW.txt) |
+| SW1 | Active | [OFFICE_A-SW.txt](OFFICE_A_SW.txt) |
+| SW2 | Passive | [OFFICE_B_SW.txt](OFFICE_B_SW.txt) |
 
 ## Configuration Scope
 
