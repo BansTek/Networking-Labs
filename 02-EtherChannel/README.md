@@ -56,11 +56,10 @@ redundancy.
 
 - [Switch Configurations](./Configurations/)
 - [Network Verification](./Verifications/)
-- [Troubleshooting](./Troubleshooting/)
-- [Packet Tracer File](./EtherChannel.pkt)
+- [Packet Tracer File](./Branch_Office_EtherChannel.pkt)
 
 ## Project Status
 
-In Progress
+Complete
 
 [Previous Lab - VLAN Configuration](../01-VLAN-Configuration/)
