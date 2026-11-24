@@ -20,7 +20,7 @@ troubleshooting skills.
 | No. | Laboratory | Status |
 | --- | --- | --- |
 | 01 | [VLAN Configuration](./01-VLAN-Configuration/) | Completed |
-| 02 | EtherChannel | Completed |
+| 02 | [EtherChannel](./02-EtherChannel/) | Completed |
 | 03 | IPv4 Routing | Upcoming |
 | 04 | Inter-VLAN Routing | Upcoming |
 | 05 | Network Security | Upcoming |
