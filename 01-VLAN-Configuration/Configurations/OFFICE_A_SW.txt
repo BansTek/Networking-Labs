@@ -1,0 +1,45 @@
+Switch>
+Switch>enable
+Switch#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#host OFFICE_A_SW
+OFFICE_A_SW(config)#
+OFFICE_A_SW(config)#
+OFFICE_A_SW(config)#
+OFFICE_A_SW(config)#vlan 10
+OFFICE_A_SW(config-vlan)#name SALES
+OFFICE_A_SW(config-vlan)#
+OFFICE_A_SW(config-vlan)#vlan 20
+OFFICE_A_SW(config-vlan)#name IT
+OFFICE_A_SW(config-vlan)#
+OFFICE_A_SW(config-vlan)#vlan 30
+OFFICE_A_SW(config-vlan)#name HR
+OFFICE_A_SW(config-vlan)#
+OFFICE_A_SW(config-vlan)#exit
+OFFICE_A_SW(config)#interface fastEthernet 0/1
+OFFICE_A_SW(config-if)#switchport mode access
+OFFICE_A_SW(config-if)#switchport access vlan 10
+OFFICE_A_SW(config-if)#exit
+OFFICE_A_SW(config)#
+OFFICE_A_SW(config)#interface f0/2
+OFFICE_A_SW(config-if)#switchport mode access
+OFFICE_A_SW(config-if)#switchport access vlan 20
+OFFICE_A_SW(config-if)#exit
+OFFICE_A_SW(config)#
+OFFICE_A_SW(config)#interface f0/3
+OFFICE_A_SW(config-if)#switchport mode access
+OFFICE_A_SW(config-if)#switchport acces vlan 30
+OFFICE_A_SW(config-if)#exit
+OFFICE_A_SW(config)#
+OFFICE_A_SW(config)#interface g0/1
+OFFICE_A_SW(config-if)#switchport mode trunk
+OFFICE_A_SW(config-if)#switchport trunk allowed vlan 10,20,30
+OFFICE_A_SW(config-if)#exit
+OFFICE_A_SW(config)#
+OFFICE_A_SW(config)#exit
+OFFICE_A_SW#
+OFFICE_A_SW#copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+OFFICE_A_SW#
