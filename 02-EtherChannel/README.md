@@ -55,7 +55,7 @@ redundancy.
 ## Lab Documentation
 
 - [Switch Configurations](./Configurations/)
-- [Network Verification](./Verification/)
+- [Network Verification](./Verifications/)
 - [Troubleshooting](./Troubleshooting/)
 - [Packet Tracer File](./EtherChannel.pkt)
 
