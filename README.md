@@ -1,4 +1,4 @@
-# Networking Labs - VLAN CONFIGURATION
+# Networking Labs
 
 ## About This Repository
 
