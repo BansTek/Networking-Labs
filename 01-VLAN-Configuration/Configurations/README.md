@@ -10,8 +10,8 @@ assignment, and trunk configuration between switches.
 
 | Device | Description | Configuration |
 |--------|-------------|---------------|
-| SW1 | Office A Switch | [View Configuration](SW1.txt) |
-| SW2 | Office B Switch | [View Configuration](SW2.txt) |
+| SW1 | Office A Switch | [View Configuration](OFFICE_A_SW.txt) |
+| SW2 | Office B Switch | [View Configuration](OFFICE_B_SW.txt) |
 
 ## Configuration Objectives
 
