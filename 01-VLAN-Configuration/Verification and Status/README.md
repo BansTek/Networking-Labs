@@ -31,11 +31,11 @@ access ports, and trunk links are configured correctly.
 
 | Source | Destination | Expected Result | Actual Result |
 |--------|-------------|-----------------|---------------|
-| SALES-1 | SALES-2 | Successful | Pending |
-| IT-1 | IT-2 | Successful | Pending |
-| HR-1 | HR-2 | Successful | Pending |
-| SALES-1 | IT-1 | Failed | Pending |
-| HR-1 | SALES-2 | Failed | Pending |
+| SALES-1 | SALES-2 | Successful | Successful |
+| IT-1 | IT-2 | Successful | Successful |
+| HR-1 | HR-2 | Successful | Successful |
+| SALES-1 | IT-1 | Failed | Failed |
+| HR-1 | SALES-2 | Failed | Failed |
 
 ## Same-VLAN Connectivity
 
