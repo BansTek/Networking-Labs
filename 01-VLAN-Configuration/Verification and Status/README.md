@@ -1,0 +1,56 @@
+# Network Verification
+
+This folder contains the verification commands and
+connectivity tests for the VLAN configuration lab.
+
+The purpose of these tests is to check whether the VLANs,
+access ports, and trunk links are configured correctly.
+
+## Verification Commands
+
+| Command | Purpose |
+|---------|---------|
+| show vlan brief | Verify VLANs and port assignments |
+| show interfaces trunk | Verify trunk status and allowed VLANs |
+| show interfaces status | Check switch port status |
+| show mac address-table | Check learned MAC addresses |
+
+## VLAN Verification
+
+OFFICE A Switch
+![VLAN Verification](VLAN_OFFICE_A_brief.png)
+
+OFFICE B Switch
+![VLAN Verification](VLAN_OFFICE_B_brief.png)
+
+## Trunk Verification
+
+OFFICE A Switch
+![Trunk Verification](TRUNK_OFFICE_A_STATUS.png)
+
+OFFICE B Switch
+![Trunk Verification](TRUNK_OFFICE_A_STATUS.png)
+
+## Connectivity Testing
+
+| Source | Destination | Expected Result | Actual Result |
+|--------|-------------|-----------------|---------------|
+| SALES-1 | SALES-2 | Successful | Pending |
+| IT-1 | IT-2 | Successful | Pending |
+| HR-1 | HR-2 | Successful | Pending |
+| SALES-1 | IT-1 | Failed | Pending |
+| HR-1 | SALES-2 | Failed | Pending |
+
+## Same-VLAN Connectivity
+
+![Successful Ping](PC1_PC4_ping.png)
+
+## Inter-VLAN Isolation
+
+![Inter-VLAN Isolation](NO_interVLAN-Routing.png)
+
+Devices belonging to different VLANs are not expected
+to communicate because inter-VLAN routing is not
+configured in this lab.
+
+[Back to Lab Overview](../README.md)
